@@ -16,17 +16,18 @@
     "production": {
       "autoIncrement": true,
       "android": {
+        "distribution": "internal",
         "autoIncrement": "versionCode"
       }
     }
-  },
-  "submit": {
-    "preview": {
-      "android": {
-        "track": "internal",
-        "servicesAccountKeyPath": "google-services.json",
-        "releaseStatus": "draft"
-      }
-    }
   }
+  // "submit": {
+  //   "preview": {
+  //     "android": {
+  //       "track": "internal",
+  //       "servicesAccountKeyPath": "google-services.json",
+  //       "releaseStatus": "draft"
+  //     }
+  //   }
+  // }
 }
