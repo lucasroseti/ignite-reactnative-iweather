@@ -56,3 +56,4 @@ jobs:
 
       - name: Build
         run: eas build --platform android --profile production --non-interactive --no-wait
+      

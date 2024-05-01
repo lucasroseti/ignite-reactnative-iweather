@@ -17,8 +17,9 @@
       "autoIncrement": true,
       "android": {
         "distribution": "internal",
-        "autoIncrement": "versionCode"
-      }
+        "autoIncrement": "versionCode",
+        "image" : "latest"
+      },
     }
   }
   // "submit": {
@@ -27,6 +28,9 @@
   //       "track": "internal",
   //       "servicesAccountKeyPath": "google-services.json",
   //       "releaseStatus": "draft"
+  //     },
+  //     "ios": {
+  //       "appleId": "[email]"
   //     }
   //   }
   // }
